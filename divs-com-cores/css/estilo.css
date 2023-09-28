@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.preto {
+    background: black;
+    color: white;
+}
+
+.amarelo {
+    background: yellow;
+}
+
+.laranja {
+    background: orange;
+}
+
+.magenta {
+    background: magenta;
+}
+
+.vermelho {
+    background: red;
+}
+
+.navy {
+    background: navy;
+}
+
+.verde {
+    background: green;
+}
+
+.azul {
+    background: blue;
+}
+
+.marrom {
+    background: saddlebrown;
+}
+
+body {
+    font-family: arial, sans-serif;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}

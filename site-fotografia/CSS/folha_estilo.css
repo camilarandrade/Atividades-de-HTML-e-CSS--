@@ -1,0 +1,277 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	width: 1024px;
+	margin: auto;
+}
+
+/* Menu de navegação */
+header {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	height: 100px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	align-items: center;
+	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
+	position: fixed;
+	background: white;
+	z-index: 1; 
+	width: 100%;
+
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+}
+
+.menu a {
+	color: black;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	list-style: none;
+}
+
+#botaoinicio {
+	color: white;
+	background: black;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.logofotomax {
+	color: black;
+	margin-left: 60px;
+}
+
+
+/* Entrada + Slides */
+h1 {
+	color: red;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 400;
+	font-size: 70px;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 700;
+	font-size: 40;
+	letter-spacing: 0cm;
+	color: #646060;
+}
+
+p {
+	font-family: Quicksand;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0cm;
+	text-align: left;
+	color: #646060;
+}
+
+.botaosaibamais {
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: white;
+	background: red;
+	text-decoration: none;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 50px;
+}
+
+.btn_saibamais {
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	
+}
+
+.botaosaibamais:hover {
+	background: white;
+	color: red;
+	border: 2px solid red; 
+	
+}
+
+/* Sobre */
+
+#sobre {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+#sobre div {
+	width: 50%;
+}
+
+#sobre p {
+	margin-bottom: 40px;
+}
+
+#sobre h2 {
+	text-decoration: underline;
+ }
+
+ /* Galeria */
+
+ #galeria {
+	 width: 1024px;
+	 
+	
+ }
+
+ #galeria h2 {
+	text-align: center; 
+	text-decoration: underline;
+	margin-bottom: 80px;
+ }
+
+ .fotos {
+	display: flex;
+	justify-content: space-between;
+
+ }
+
+ .fotomaior {
+	margin-right: 50px;
+ }
+
+.fotomenor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.fotomenor div {
+	margin-bottom: 50px;
+}
+
+
+
+/* Album */
+
+#album {
+	width: 1024px;
+	margin-bottom: 80px;
+}
+
+#album h2 {
+	text-decoration: underline;
+	text-align: center;
+	margin-bottom: 80px;
+
+}
+
+.sessaoalbum {
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.textoalbum {
+	background: #c4c4c4;
+	width: 524px;
+	height: 232px;
+	padding: 50px;
+
+}
+
+
+/* Rodape */
+
+footer {
+	background: #343333;
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+
+#contato {
+	width: 1024px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#contato h2 {
+	color: #c4c4c4;
+	margin-bottom: 20px; text-decoration: underline;
+}
+
+#contato p {
+	color: #c4c4c4;
+	width: 400px;
+	margin: auto;
+}
+
+.textocontato p {
+	width: 400px;
+}
+
+.formulario {
+	width: 300px;
+}
+
+textarea {
+	width: 300px;
+	height: 140px;
+	background: #c4c4c4;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+input {
+	width: 300px;
+	height: 40px;
+	background: #c4c4c4;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.botaoform {
+	font-family: Quicksand;
+	font-weight: 400;
+	color: #343333;
+	background: #c4c4c4;
+	font-size: 14px;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
+
+.botaoform:hover {
+	background: #343333;
+	color: #c4c4c4;
+	border: 2px solid #c4c4c4; }
