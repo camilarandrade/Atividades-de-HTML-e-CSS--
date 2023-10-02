@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio com imagens</title>
+    <style>
+        /* PRIMEIRO FOI ESTILIZADO A IMAGEM DE FUNDO COM UM ID DENTRO DA
+        TAG BODY EX:<BODY ID="FUNDO" */
+       #fundo {
+        /* O PRIMEIRO ATRUBUTO É UMA IMAGEM DE FUNDO COM UMA URL- PASTA DO ARQUIVO
+        ARQUIVO */
+        background-image: url(imagens/fundored.png);
+        /* AQUI INFORMAMOS AO BROUSER QUANTAS VEZES ESSA IMAGEM IRA SE REPETIR
+        NESSE CASO APENAS UMA VEZ O tributo repet-y DIZ UMA REPETIÇÃO NO 
+        EIXO Y VERTICAL*/
+        background-repeat: repeat-y;
+       }
+       /* CLASS QUE ENGLOBA AS DIVS/IMGS*/
+       .retangulo_azul{
+        /* COR DE FUNDO*/
+        background-color: blue;
+        /* O PADDING é usada para definir a distância interna entre um elemento e 
+        sua borda, 90PX EM CIMA 0 ESQUERDA 100PX EM BAIXO 0 DIREITA */
+        padding: 90px 0px 100px 0px;
+        /* MARGIN EM CIMA */
+        margin-top: 15rem ;
+        /* MARGIN A ESQUERDA*/
+        margin-left: 50px;
+        /* PERMITE QUE OS ITENS TENHAM MOBILIDADE */
+        display: flex;
+        /* SOMBRA COM 10PX EM BAIXO E 10 PX A DIREITA */
+        box-shadow: 10px 10px rgba(0, 0, 0, 0.7);
+        /* TAMANHO TOTAL DA DIV*/
+        width: 70%;
+       }
+       /* DIV REFERENTE A PRIMEIRA IMAGEM */
+       .box1{
+        /* PERMITE QUE OS ITENS TENHAM MOBILIDADE */
+        display: flex;
+        /* ALINHAR ITENS NO CENTRO DO RETANGULO AZUL VERTICAL*/
+        align-items: center;
+        /* ALINHAR ITENS NO CENTRO DO RETANGULO AZULA NA HORIZONTAL*/
+        justify-content: center;
+        /* MARGIN A ESQUERDA */
+        margin-left: 10px;
+        /* COR DE FUNDO */
+        background-color: #fff;
+        /* BORDA DE 1PX SOLIDA  #COR*/
+        border: 1px solid #ddd673;
+        /* RAIO DA BORDA 50% TRANFORMA A DIV EM UM CIRCULO */
+        border-radius: 50%;
+        /* TAMANHO TOTAL DA DIV 10 MEDIDA RELATIVA CORRESPONDENTE A PAGINA */
+        width: 10rem;
+        /* CORRESPONDE A ALTURA DA DIV*/
+        height: 10rem;
+        /* ALINHAR ITENS O CENTRO */
+        align-items: center;
+       }
+       /* AO PASSAR O MOUSE EM CIMA AVERA AS SEGUINTES ALTERAÇÕES */
+       .box1:hover{
+        /* AUMENTA O TAMANHO DA DIV NO TAMNAHO DEFINIDO */
+        transform: scale(1.5);
+       }
+       /* DIV REFERENTE A PRIMEIRA IMAGEM */
+       .box2{
+        /* PERMITE QUE OS ITENS TENHAM MOBILIDADE */
+        display: flex;
+        /* ALINHAR ITENS NO CENTRO DO RETANGULO AZUL VERTICAL*/
+        align-items: center;
+        /* ALINHAR ITENS NO CENTRO DO RETANGULO AZULA NA HORIZONTAL*/
+        justify-content: center;
+        /* MARGIN A ESQUERDA */
+        margin-left: 10px;
+        /* COR DE FUNDO */
+        background-color: #fff;
+        /* BORDA DE 1PX SOLIDA  #COR*/
+        border: 1px solid #ddd673;
+        /* RAIO DA BORDA 50% TRANFORMA A DIV EM UM CIRCULO */
+        box-shadow: #ddd673;
+        /* TAMANHO TOTAL DA DIV 10 MEDIDA RELATIVA CORRESPONDENTE A PAGINA */
+        border-radius: 50%;
+        /* TAMANHO TOTAL DA DIV 10 MEDIDA RELATIVA CORRESPONDENTE A PAGINA */
+        width: 10rem;
+        /* ALINHAR ITENS O CENTRO */
+        height: 10rem;
+       }
+       .box2:hover {
+        transform: scale(1.5);
+       }
+       .box3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        background-color: #fff;
+        border: 1px solid #ddd673;
+        border-radius: 50%;
+        width: 10rem;
+        height: 10rem;
+       }
+       .box3:hover{
+        transform: scale(1.5);
+       }
+       .box4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        background-color: #fff;
+        border: 1px solid #ddd673;
+        border-radius: 50%;
+        width: 10rem;
+        height: 10rem;
+       }
+       .box4:hover {
+        transform: scale(1.5);
+       }
+       /*CONFIGURAÇÃO PARA TODAS AS TAGS IMG */
+       img{
+        /*TAMANHO DA IMAGEM*/
+        width: 70%;
+       }
+
+    </style>
+</head>
+<body id="fundo">
+    <div class="retangulo_azul">
+        <div class="box1">
+            <img src="imagens/bowser.png" alt="">
+        </div>
+        <div class="box2">
+            <img src="imagens/luigi.png" alt="">
+        </div>
+        <div class="box3">
+            <img src="imagens/mario.png" alt="">
+        </div>
+        <div class="box4">
+            <img src="imagens/toad.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
